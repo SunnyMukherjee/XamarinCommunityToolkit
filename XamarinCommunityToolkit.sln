@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCommunityToolkit", "XamarinCommunityToolkit\XamarinCommunityToolkit.csproj", "{EEE96FCB-F0A5-4692-9852-8D018C5C4536}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinCommunityToolkit", "XamarinCommunityToolkit\XamarinCommunityToolkit.csproj", "{EEE96FCB-F0A5-4692-9852-8D018C5C4536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCommunityToolkitTests", "XamarinCommunityToolkitTests\XamarinCommunityToolkitTests.csproj", "{A3055ED0-7BBF-4CF9-AFC2-763DDDE50935}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{EEE96FCB-F0A5-4692-9852-8D018C5C4536}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE96FCB-F0A5-4692-9852-8D018C5C4536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE96FCB-F0A5-4692-9852-8D018C5C4536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3055ED0-7BBF-4CF9-AFC2-763DDDE50935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3055ED0-7BBF-4CF9-AFC2-763DDDE50935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3055ED0-7BBF-4CF9-AFC2-763DDDE50935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3055ED0-7BBF-4CF9-AFC2-763DDDE50935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26CFEC26-DD91-4C6F-8746-78EF3842CFD7}
 	EndGlobalSection
 EndGlobal

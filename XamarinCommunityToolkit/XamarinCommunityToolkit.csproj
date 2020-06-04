@@ -104,4 +104,24 @@
         <Compile Include="**\*.tizen.cs" />
         <Compile Include="**\*.tizen.*.cs" />
     </ItemGroup>
+    <ItemGroup>
+      <Compile Include="RegularExpressions.cs" />
+      <Compile Include="Validations\EmailRule.cs" />
+      <Compile Include="Validations\IValidationRule.cs" />
+      <Compile Include="Validations\ExtendedBindableObject.cs" />
+      <Compile Include="Validations\IValidity.cs" />
+      <Compile Include="Validations\ValidatableObject.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Validations\IValidationRule.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="RegularExpressions.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Validations\ValidatableObject.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Validations\IValidity.cs" />
+    </ItemGroup>
 </Project>
